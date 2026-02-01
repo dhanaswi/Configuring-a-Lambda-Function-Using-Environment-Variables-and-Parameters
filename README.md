@@ -18,12 +18,37 @@ The function behavior is controlled using user-defined key–value pairs from th
 - Python runtime (AWS managed)
 - Internet access
 
- ## Step 1: Create an AWS Lambda Function
+ ## Step 1: Open AWS Lambda Service and Create a Function
 
 1. Sign in to the **AWS Management Console**
 2. Search for **Lambda** and open the service
 <br>
 <p align="center">
-<img src="images/1.png" width="500">
+<img src="Images/1.jpeg" width="500">
 </p>
 </br> 
+
+3. Click **Create function**
+<br>
+<p align="center">
+<img src="Images/2.jpeg" width="500">
+</p>
+</br>
+
+4. Select **Author from scratch**
+5. Enter a function name (example: mylambdafunction)
+6. Choose **Python** (latest version) as runtime
+7. Select **x86_64** architecture
+<br>
+<p align="center">
+ <img src="Images/3.jpeg" width="500">
+</p>
+</br> 
+
+8. Click **Create function**
+<br>
+<p align="center">
+ <img src="Images/4.jpeg" width="500">
+</p>
+</br> 
+
